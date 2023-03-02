@@ -34,6 +34,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
  * The `src` directory contains the main source code for your application. The `index.tsx` file is the entry point for your application.
 * The `assets` directory should contain all images. Please, use svgs converted to TSX.
+* The `routes` directory should be used for creating all Routes.
 * The `components` directory contains all of the reusable UI components for your application. The `pages` directory contains the components that connect to the Redux store and provide data to the UI components.
 * The `store` directory contains all of the Redux Toolkit slices for your application. Each slice has its own directory, with the slice file, test file, and type definitions. `index.ts` file should be used for configuring store.
 * The `types` directory contains reusable inferfaces/types. Check, example.
